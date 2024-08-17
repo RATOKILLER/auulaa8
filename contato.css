@@ -1,0 +1,117 @@
+/* Estilo geral do site */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cabecalho img {
+    width: 100%;
+    height: 230px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    font-size: 2.5em; 
+    color: #004080; 
+    margin-top: 20px;
+}
+
+/* Estilo do menu */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    background-color: #004080;
+}
+
+/* Estilo do botão Home no menu */
+.botao-home {
+    background-color: #004080;
+    border-radius: 4px;
+}
+
+.botao-home:hover {
+    background-color: #003060;
+}
+
+/* Estilo da seção de contato */
+.contato {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato h1 {
+    font-size: 2em;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.contato p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contato input,
+.contato textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.contato button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contato button:hover {
+    background-color: #003060;
+}
