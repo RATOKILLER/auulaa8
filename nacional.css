@@ -68,7 +68,7 @@ footer {
     width: 100%;
     bottom: 0;
     font-size: 0.9em;
-    background-color: #f1f1f1; /* Cor de fundo do rodapé */
+    background-color: #f1f1f1;
 }
 
 footer p {
@@ -83,7 +83,7 @@ footer p {
     text-decoration: none;
     font-size: 0.9em;
     border-radius: 5px;
-    margin-bottom: 10px; /* Espaçamento entre o botão e o texto dos direitos reservados */
+    margin-bottom: 10px;
     transition: background-color 0.3s ease;
 }
 
